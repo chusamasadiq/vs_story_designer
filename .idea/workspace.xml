@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd22d672-3e64-436a-b897-c830be789548" name="Changes" comment="gradient background removed" />
+    <list default="true" id="fd22d672-3e64-436a-b897-c830be789548" name="Changes" comment="gradient background removed">
+      <change afterPath="$PROJECT_DIR$/example/assets/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/assets/Social Media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/assets/image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/7.6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/7.6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/7.6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/7.6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/7.6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/7.6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/7.6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/7.6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vs_story_designer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vs_story_designer.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +55,17 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "E:/Office Work (ASKSEO)/Instagram Story Editor",
+    "last_opened_file_path": "E:/Office Work (ASKSEO)/Instagram Story Editor/example/assets",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Office Work (ASKSEO)\Instagram Story Editor\example\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />

@@ -114,9 +114,6 @@ class VSStoryDesigner extends StatefulWidget {
   /// editor custom font families
   final List<FontType>? fontFamilyList;
 
-  // theme type
-  final ThemeType? themeType;
-
   /// editor custom font families package
   final bool? isCustomFontList;
 
@@ -148,13 +145,9 @@ class VSStoryDesigner extends StatefulWidget {
   final int? galleryThumbnailQuality;
   final String centerText;
 
-  // share image file path
-  final String? mediaPath;
-
   const VSStoryDesigner(
       {super.key,
       this.giphyKey,
-      this.themeType,
       required this.onDone,
       this.middleBottomWidget,
       this.colorList,
@@ -165,7 +158,6 @@ class VSStoryDesigner extends StatefulWidget {
       this.onDoneButtonStyle,
       this.editorBackgroundColor,
       this.galleryThumbnailQuality,
-      this.mediaPath,
       required this.centerText});
 
   @override
@@ -175,7 +167,6 @@ class VSStoryDesigner extends StatefulWidget {
 class _VSStoryDesignerState extends State<VSStoryDesigner> {
   @override
   void initState() {
-    // Paint.enableDithering = true;
     WidgetsFlutterBinding.ensureInitialized();
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
@@ -204,7 +195,6 @@ class _VSStoryDesignerState extends State<VSStoryDesigner> {
         ChangeNotifierProvider(create: (_) => TextEditingNotifier()),
       ],
       child: MainView(
-        themeType: widget.themeType ?? ThemeType.dark,
         giphyKey: widget.giphyKey ?? 'C4dMA7Q19nqEGdpfj82T8ssbOeZIylD4',
         onDone: widget.onDone,
         fontFamilyList: widget.fontFamilyList,
@@ -217,7 +207,6 @@ class _VSStoryDesignerState extends State<VSStoryDesigner> {
         editorBackgroundColor: widget.editorBackgroundColor,
         galleryThumbnailQuality: widget.galleryThumbnailQuality,
         centerText: widget.centerText,
-        mediaPath: widget.mediaPath,
       ),
     );
   }
