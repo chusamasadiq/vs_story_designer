@@ -114,14 +114,11 @@ class VSStoryDesigner extends StatefulWidget {
   /// editor custom font families
   final List<FontType>? fontFamilyList;
 
-  /// editor custom font families package
+  /// editor custom kfont families package
   final bool? isCustomFontList;
 
   /// you can pass a fileName with which image name will be created
   final String? fileName;
-
-  /// giphy api key
-  final String? giphyKey;
 
   /// editor custom logo
   final Widget? middleBottomWidget;
@@ -147,7 +144,6 @@ class VSStoryDesigner extends StatefulWidget {
 
   const VSStoryDesigner(
       {super.key,
-      this.giphyKey,
       required this.onDone,
       this.middleBottomWidget,
       this.colorList,
@@ -195,7 +191,6 @@ class _VSStoryDesignerState extends State<VSStoryDesigner> {
         ChangeNotifierProvider(create: (_) => TextEditingNotifier()),
       ],
       child: MainView(
-        giphyKey: widget.giphyKey ?? 'C4dMA7Q19nqEGdpfj82T8ssbOeZIylD4',
         onDone: widget.onDone,
         fontFamilyList: widget.fontFamilyList,
         isCustomFontList: widget.isCustomFontList,

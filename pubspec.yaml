@@ -1,7 +1,7 @@
 name: vs_story_designer
 description: This is a package created in the style of the instagram story creator, with which you can create images with images, texts, finger drawing.
 version: 2.2.0
-homepage:  https://github.com/VickySalunkhe/vs_story_designer
+homepage: https://github.com/VickySalunkhe/vs_story_designer
 
 environment:
   sdk: '>=2.18.2 <4.0.0'
@@ -70,7 +70,7 @@ flutter:
     - packages/vs_story_designer/assets/icons/video_trim.png
     - packages/vs_story_designer/assets/images/instagram_logo.png
 
-  # fonts:
+    # fonts:
 
     # - family: Alegreya
     #   fonts:

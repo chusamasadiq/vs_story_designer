@@ -39,9 +39,6 @@ class MainView extends StatefulWidget {
   /// you can pass a folderName where media files will be saved to instead of default folder
   final String? fileName;
 
-  /// giphy api key
-  final String giphyKey;
-
   /// editor custom logo
   final Widget? middleBottomWidget;
 
@@ -75,7 +72,6 @@ class MainView extends StatefulWidget {
   MainView(
       {super.key,
       this.themeType,
-      required this.giphyKey,
       required this.onDone,
       this.middleBottomWidget,
       this.colorList,
@@ -122,7 +118,6 @@ class _MainViewState extends State<MainView> {
           Provider.of<DraggableWidgetNotifier>(context, listen: false);
 
       /// initialize control variable provider
-      _control.giphyKey = widget.giphyKey;
       _control.folderName = widget.fileName ?? "VS_Story_Designer";
       _control.middleBottomWidget = widget.middleBottomWidget;
       _control.isCustomFontList = widget.isCustomFontList ?? false;
